@@ -93,11 +93,23 @@ and AI-assisted risk review. Built with **retry/backoff and a dead-letter queue*
 
 ---
 
-## 📊 Stats
+## 📊 GitHub Stats
 
-<p>
+<p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=lumoradevlab&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lumoradevlab&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=lumoradevlab&hide_border=true&theme=default" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lumoradevlab&hide_border=true&area=true&theme=github-light" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lumoradevlab&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
 </p>
 
 ---
