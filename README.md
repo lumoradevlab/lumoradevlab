@@ -18,16 +18,6 @@ and I also work in Python on automation and data-collection tooling.
 
 ## Projects
 
-### [OPlayerSensorRing](https://github.com/lumoradevlab/OPlayerSensorRing)
-Android app that pairs with OPlayer smart rings over **Bluetooth LE** and syncs health telemetry —
-heart rate and HRV, SpO2, blood pressure, sleep stages, steps, temperature.
-
-The engineering problem is continuity rather than UI: a foreground service and WorkManager keep the
-sync running in the background, restore it after reboot, and recover when the device drops connection.
-Clean Architecture with Hilt, Room, and DataStore; vendor SDK bridged to native Android BLE.
-
-`Kotlin` · `Compose` · `BLE` · `WorkManager` · `Hilt` · `Room`
-
 ### [ComposeCleanArch](https://github.com/lumoradevlab/ComposeCleanArch)
 A Jetpack Compose Clean Architecture starter, structured as four Gradle modules —
 `app`, `domain`, `data`, `presentation` — with dependencies constrained to point inward.
@@ -51,6 +41,16 @@ TXT, CSV, and JSON. Python 3 standard library only, no dependencies. Deduplicate
 and narrows its own date window so repeat runs stay inexpensive.
 
 `Python`
+
+### [OPlayerSensorRing](https://github.com/lumoradevlab/OPlayerSensorRing)
+Android app that pairs with OPlayer smart rings over **Bluetooth LE** and syncs health telemetry —
+heart rate and HRV, SpO2, blood pressure, sleep stages, steps, temperature.
+
+The engineering problem is continuity rather than UI: a foreground service and WorkManager keep the
+sync running in the background, restore it after reboot, and recover when the device drops connection.
+Clean Architecture with Hilt, Room, and DataStore; vendor SDK bridged to native Android BLE.
+
+`Kotlin` · `Compose` · `BLE` · `WorkManager` · `Hilt` · `Room`
 
 ---
 
