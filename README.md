@@ -1,6 +1,6 @@
 # Lumora
 
-**Android engineer** — Kotlin, Jetpack Compose, and multi-module architecture.
+**Android engineer, 10+ years** — Kotlin, Jetpack Compose, and multi-module architecture.
 I build production Android apps, including ones that talk to real hardware over Bluetooth LE,
 and I also work in Python on automation and data-collection tooling.
 
