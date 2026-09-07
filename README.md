@@ -18,17 +18,6 @@ and I also work in Python on automation and data-collection tooling.
 
 ## Projects
 
-### [OPlayerSensorRing](https://github.com/lumoradevlab/OPlayerSensorRing)
-Android app that pairs with OPlayer smart rings over **Bluetooth LE** and syncs health telemetry —
-heart rate and HRV, SpO2, blood pressure, sleep stages, steps, temperature.
-
-The engineering problem is continuity rather than UI: a foreground service and WorkManager keep the
-sync running in the background, restore it after reboot, and recover when the device drops
-connection. Clean Architecture with Hilt, Room, and DataStore; the vendor SDK is bridged to native
-Android BLE so scanning finds both OPlayer rings and generic devices.
-
-`Kotlin` · `Compose` · `BLE` · `WorkManager` · `Hilt` · `Room`
-
 ### [ComposeCleanArch](https://github.com/lumoradevlab/ComposeCleanArch)
 A Jetpack Compose base app you can clone and start a real project from, with one unusual idea:
 **screens have no ViewModels.**
@@ -67,6 +56,17 @@ and a repository package — with Riverpod for state and DI, GoRouter, dev/stagi
 `--dart-define-from-file`, and zone-guarded startup reporting to Sentry.
 
 `Flutter` · `Dart` · `Riverpod` · `Melos`
+
+### [OPlayerSensorRing](https://github.com/lumoradevlab/OPlayerSensorRing)
+Android app that pairs with OPlayer smart rings over **Bluetooth LE** and syncs health telemetry —
+heart rate and HRV, SpO2, blood pressure, sleep stages, steps, temperature.
+
+The engineering problem is continuity rather than UI: a foreground service and WorkManager keep the
+sync running in the background, restore it after reboot, and recover when the device drops
+connection. Clean Architecture with Hilt, Room, and DataStore; the vendor SDK is bridged to native
+Android BLE so scanning finds both OPlayer rings and generic devices.
+
+`Kotlin` · `Compose` · `BLE` · `WorkManager` · `Hilt` · `Room`
 
 ---
 
