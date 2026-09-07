@@ -10,9 +10,9 @@ and I also work in Python on automation and data-collection tooling.
 
 ### Core stack
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logoColor=white&logo=kotlin) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white&logo=python) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logoColor=white&logo=dart) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logoColor=white&logo=android)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logoColor=white&logo=kotlin) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logoColor=white&logo=python) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logoColor=white&logo=dart) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logoColor=white&logo=android)
 
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logoColor=white&logo=jetpackcompose) ![Coroutines & Flow](https://img.shields.io/badge/Coroutines%20%26%20Flow-7F52FF?style=for-the-badge&logoColor=white) ![Hilt](https://img.shields.io/badge/Hilt-2C4AA8?style=for-the-badge&logoColor=white) ![Room](https://img.shields.io/badge/Room-1B6AC6?style=for-the-badge&logoColor=white) ![DataStore](https://img.shields.io/badge/DataStore-1B6AC6?style=for-the-badge&logoColor=white) ![WorkManager](https://img.shields.io/badge/WorkManager-1B6AC6?style=for-the-badge&logoColor=white) ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logoColor=white&logo=gradle) ![Bluetooth LE](https://img.shields.io/badge/Bluetooth%20LE-0082FC?style=for-the-badge&logoColor=white&logo=bluetooth) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logoColor=white&logo=flutter)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logoColor=white&logo=jetpackcompose) ![Coroutines & Flow](https://img.shields.io/badge/Coroutines%20%26%20Flow-7F52FF?style=flat&logoColor=white) ![Hilt](https://img.shields.io/badge/Hilt-2C4AA8?style=flat&logoColor=white) ![Room](https://img.shields.io/badge/Room-1B6AC6?style=flat&logoColor=white) ![DataStore](https://img.shields.io/badge/DataStore-1B6AC6?style=flat&logoColor=white) ![WorkManager](https://img.shields.io/badge/WorkManager-1B6AC6?style=flat&logoColor=white) ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=flat&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logoColor=white&logo=gradle) ![Bluetooth LE](https://img.shields.io/badge/Bluetooth%20LE-0082FC?style=flat&logoColor=white&logo=bluetooth) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logoColor=white&logo=flutter)
 
 **Architecture** · Clean Architecture · MVVM · MVI · Gradle multi-module · convention plugins
 
@@ -78,6 +78,8 @@ Android BLE so scanning finds both OPlayer rings and generic devices.
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=dark">
   <img src="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub contribution streak" width="495">
 </picture>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="kotlin" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="android" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" alt="gradle" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="flutter" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="dart" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" height="44" />
 
 ---
 
