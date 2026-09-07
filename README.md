@@ -74,10 +74,16 @@ Android BLE so scanning finds both OPlayer rings and generic devices.
 
 ## Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=dark">
-  <img src="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub contribution streak" width="495">
-</picture>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=dark">
+    <img src="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub contribution streak" height="195">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lumoradevlab/lumoradevlab/main/profile-summary-card-output/github_dark/1-repos-per-language.svg">
+    <img src="https://raw.githubusercontent.com/lumoradevlab/lumoradevlab/main/profile-summary-card-output/github/1-repos-per-language.svg" alt="Top languages by repository" height="195">
+  </picture>
+</p>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="kotlin" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="android" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" alt="gradle" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="flutter" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="dart" height="44" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" height="44" />
 
