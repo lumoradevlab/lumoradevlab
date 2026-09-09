@@ -76,8 +76,8 @@ Android BLE so scanning finds both OPlayer rings and generic devices.
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=dark&cache_seconds=1800">
-    <img src="https://streak-stats.demolab.com/?user=lumoradevlab&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=1800" alt="GitHub contribution streak" height="195">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lumoradevlab/lumoradevlab/main/streak-card-output/dark.svg">
+    <img src="https://raw.githubusercontent.com/lumoradevlab/lumoradevlab/main/streak-card-output/light.svg" alt="GitHub contribution streak" height="195">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lumoradevlab/lumoradevlab/main/profile-summary-card-output/github_dark/1-repos-per-language.svg">

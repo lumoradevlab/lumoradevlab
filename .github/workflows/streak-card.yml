@@ -1,0 +1,63 @@
+name: Streak card
+
+on:
+  schedule:
+    - cron: "20 3 * * *"
+  workflow_dispatch:
+
+# Prevent overlapping runs from racing each other's commits.
+concurrency:
+  group: streak-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-streak-card
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate light card
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: >-
+            user=${{ github.repository_owner }}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D
+          path: streak-card-output/light.svg
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate dark card
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: >-
+            user=${{ github.repository_owner }}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&theme=dark
+          path: streak-card-output/dark.svg
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Verify cards rendered
+        run: |
+          for f in streak-card-output/light.svg streak-card-output/dark.svg; do
+            if [ ! -s "$f" ]; then
+              echo "::error::$f is missing or empty"
+              exit 1
+            fi
+            if grep -q "Failed to retrieve" "$f"; then
+              echo "::error::$f contains an upstream error card"
+              exit 1
+            fi
+          done
+          echo "Both cards rendered successfully."
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streak-card-output/light.svg streak-card-output/dark.svg
+          if git diff --staged --quiet; then
+            echo "No change in streak cards; nothing to commit."
+          else
+            git commit -m "Generate streak card"
+            git push
+          fi
