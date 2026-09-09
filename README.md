@@ -4,7 +4,7 @@
 I build production Android apps, including ones that talk to real hardware over Bluetooth LE,
 and I also work in Python on automation and data-collection tooling.
 
-📍 United States · Open to remote Android roles (US)
+📍 Open to remote Android roles (All around the world)
 
 ---
 
